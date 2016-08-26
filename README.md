@@ -1,12 +1,11 @@
 ![CoreData](https://img.shields.io/badge/build-passing-green.svg)
-![CoreData](https://img.shields.io/badge/BOBUtils-99.9-orange.svg)
 ![CoreData](https://img.shields.io/badge/LICENSE-MIT-brightgreen.svg)
 
 
 # ABBCoreDataManager
 CoreData 的封装和简单使用: json to model  , model to json , and save.
 
-
+参考：
 https://github.com/BadChoice/daikiri
 
 *****************
