@@ -16,12 +16,12 @@
 		F5047F231D6FEDC40055AD3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5047F211D6FEDC40055AD3A /* LaunchScreen.storyboard */; };
 		F5047F2E1D6FEDC40055AD3A /* ABBCoreDataManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5047F2D1D6FEDC40055AD3A /* ABBCoreDataManagerTests.m */; };
 		F5047F391D6FEDC40055AD3A /* ABBCoreDataManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5047F381D6FEDC40055AD3A /* ABBCoreDataManagerUITests.m */; };
-		F5047F491D6FEF300055AD3A /* CoreDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F5047F481D6FEF300055AD3A /* CoreDataBase.m */; };
-		F5047F4C1D6FF18E0055AD3A /* CoreDataJson.m in Sources */ = {isa = PBXBuildFile; fileRef = F5047F4B1D6FF18E0055AD3A /* CoreDataJson.m */; };
-		F5047F4F1D700A540055AD3A /* CoreDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F5047F4E1D700A540055AD3A /* CoreDataObject.m */; };
-		F5047F551D7018DC0055AD3A /* CoreDataContex.m in Sources */ = {isa = PBXBuildFile; fileRef = F5047F541D7018DC0055AD3A /* CoreDataContex.m */; };
 		F5047F581D702CF50055AD3A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F5047F571D702CF50055AD3A /* Person.m */; };
-		F5047F5B1D703B7C0055AD3A /* CoreDataQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F5047F5A1D703B7C0055AD3A /* CoreDataQuery.m */; };
+		F52F1DF11D7832B10036FFF5 /* CoreDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F1DE81D7832B10036FFF5 /* CoreDataBase.m */; };
+		F52F1DF21D7832B10036FFF5 /* CoreDataContex.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F1DEA1D7832B10036FFF5 /* CoreDataContex.m */; };
+		F52F1DF31D7832B10036FFF5 /* CoreDataJson.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F1DEC1D7832B10036FFF5 /* CoreDataJson.m */; };
+		F52F1DF41D7832B10036FFF5 /* CoreDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F1DEE1D7832B10036FFF5 /* CoreDataObject.m */; };
+		F52F1DF51D7832B10036FFF5 /* CoreDataQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F1DF01D7832B10036FFF5 /* CoreDataQuery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,18 +59,18 @@
 		F5047F341D6FEDC40055AD3A /* ABBCoreDataManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABBCoreDataManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5047F381D6FEDC40055AD3A /* ABBCoreDataManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABBCoreDataManagerUITests.m; sourceTree = "<group>"; };
 		F5047F3A1D6FEDC40055AD3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5047F471D6FEF300055AD3A /* CoreDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataBase.h; sourceTree = "<group>"; };
-		F5047F481D6FEF300055AD3A /* CoreDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataBase.m; sourceTree = "<group>"; };
-		F5047F4A1D6FF18E0055AD3A /* CoreDataJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataJson.h; sourceTree = "<group>"; };
-		F5047F4B1D6FF18E0055AD3A /* CoreDataJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataJson.m; sourceTree = "<group>"; };
-		F5047F4D1D700A540055AD3A /* CoreDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataObject.h; sourceTree = "<group>"; };
-		F5047F4E1D700A540055AD3A /* CoreDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataObject.m; sourceTree = "<group>"; };
-		F5047F531D7018DC0055AD3A /* CoreDataContex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataContex.h; sourceTree = "<group>"; };
-		F5047F541D7018DC0055AD3A /* CoreDataContex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataContex.m; sourceTree = "<group>"; };
 		F5047F561D702CF50055AD3A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		F5047F571D702CF50055AD3A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		F5047F591D703B7C0055AD3A /* CoreDataQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataQuery.h; sourceTree = "<group>"; };
-		F5047F5A1D703B7C0055AD3A /* CoreDataQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataQuery.m; sourceTree = "<group>"; };
+		F52F1DE71D7832B10036FFF5 /* CoreDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataBase.h; sourceTree = "<group>"; };
+		F52F1DE81D7832B10036FFF5 /* CoreDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataBase.m; sourceTree = "<group>"; };
+		F52F1DE91D7832B10036FFF5 /* CoreDataContex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataContex.h; sourceTree = "<group>"; };
+		F52F1DEA1D7832B10036FFF5 /* CoreDataContex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataContex.m; sourceTree = "<group>"; };
+		F52F1DEB1D7832B10036FFF5 /* CoreDataJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataJson.h; sourceTree = "<group>"; };
+		F52F1DEC1D7832B10036FFF5 /* CoreDataJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataJson.m; sourceTree = "<group>"; };
+		F52F1DED1D7832B10036FFF5 /* CoreDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataObject.h; sourceTree = "<group>"; };
+		F52F1DEE1D7832B10036FFF5 /* CoreDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataObject.m; sourceTree = "<group>"; };
+		F52F1DEF1D7832B10036FFF5 /* CoreDataQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataQuery.h; sourceTree = "<group>"; };
+		F52F1DF01D7832B10036FFF5 /* CoreDataQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataQuery.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +121,9 @@
 		F5047F0F1D6FEDC40055AD3A /* ABBCoreDataManager */ = {
 			isa = PBXGroup;
 			children = (
+				F52F1DE61D7832B10036FFF5 /* libs */,
 				F5047F561D702CF50055AD3A /* Person.h */,
 				F5047F571D702CF50055AD3A /* Person.m */,
-				F5047F461D6FEF1B0055AD3A /* lib */,
 				F5047F131D6FEDC40055AD3A /* AppDelegate.h */,
 				F5047F141D6FEDC40055AD3A /* AppDelegate.m */,
 				F5047F161D6FEDC40055AD3A /* ViewController.h */,
@@ -164,21 +164,21 @@
 			path = ABBCoreDataManagerUITests;
 			sourceTree = "<group>";
 		};
-		F5047F461D6FEF1B0055AD3A /* lib */ = {
+		F52F1DE61D7832B10036FFF5 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				F5047F471D6FEF300055AD3A /* CoreDataBase.h */,
-				F5047F481D6FEF300055AD3A /* CoreDataBase.m */,
-				F5047F4A1D6FF18E0055AD3A /* CoreDataJson.h */,
-				F5047F4B1D6FF18E0055AD3A /* CoreDataJson.m */,
-				F5047F4D1D700A540055AD3A /* CoreDataObject.h */,
-				F5047F4E1D700A540055AD3A /* CoreDataObject.m */,
-				F5047F531D7018DC0055AD3A /* CoreDataContex.h */,
-				F5047F541D7018DC0055AD3A /* CoreDataContex.m */,
-				F5047F591D703B7C0055AD3A /* CoreDataQuery.h */,
-				F5047F5A1D703B7C0055AD3A /* CoreDataQuery.m */,
+				F52F1DE71D7832B10036FFF5 /* CoreDataBase.h */,
+				F52F1DE81D7832B10036FFF5 /* CoreDataBase.m */,
+				F52F1DE91D7832B10036FFF5 /* CoreDataContex.h */,
+				F52F1DEA1D7832B10036FFF5 /* CoreDataContex.m */,
+				F52F1DEB1D7832B10036FFF5 /* CoreDataJson.h */,
+				F52F1DEC1D7832B10036FFF5 /* CoreDataJson.m */,
+				F52F1DED1D7832B10036FFF5 /* CoreDataObject.h */,
+				F52F1DEE1D7832B10036FFF5 /* CoreDataObject.m */,
+				F52F1DEF1D7832B10036FFF5 /* CoreDataQuery.h */,
+				F52F1DF01D7832B10036FFF5 /* CoreDataQuery.m */,
 			);
-			path = lib;
+			path = libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,15 +312,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5047F181D6FEDC40055AD3A /* ViewController.m in Sources */,
+				F52F1DF11D7832B10036FFF5 /* CoreDataBase.m in Sources */,
+				F52F1DF21D7832B10036FFF5 /* CoreDataContex.m in Sources */,
 				F5047F151D6FEDC40055AD3A /* AppDelegate.m in Sources */,
 				F5047F581D702CF50055AD3A /* Person.m in Sources */,
-				F5047F551D7018DC0055AD3A /* CoreDataContex.m in Sources */,
-				F5047F4C1D6FF18E0055AD3A /* CoreDataJson.m in Sources */,
-				F5047F4F1D700A540055AD3A /* CoreDataObject.m in Sources */,
 				F5047F1E1D6FEDC40055AD3A /* ABBCoreDataManager.xcdatamodeld in Sources */,
-				F5047F491D6FEF300055AD3A /* CoreDataBase.m in Sources */,
+				F52F1DF31D7832B10036FFF5 /* CoreDataJson.m in Sources */,
+				F52F1DF51D7832B10036FFF5 /* CoreDataQuery.m in Sources */,
+				F52F1DF41D7832B10036FFF5 /* CoreDataObject.m in Sources */,
 				F5047F121D6FEDC40055AD3A /* main.m in Sources */,
-				F5047F5B1D703B7C0055AD3A /* CoreDataQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +548,7 @@
 				F5047F3F1D6FEDC40055AD3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5047F401D6FEDC40055AD3A /* Build configuration list for PBXNativeTarget "ABBCoreDataManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +557,7 @@
 				F5047F421D6FEDC40055AD3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5047F431D6FEDC40055AD3A /* Build configuration list for PBXNativeTarget "ABBCoreDataManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +566,7 @@
 				F5047F451D6FEDC40055AD3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
