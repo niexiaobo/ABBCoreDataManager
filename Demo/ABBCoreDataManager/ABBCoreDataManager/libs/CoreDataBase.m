@@ -174,7 +174,13 @@
     
     [managedObject setValue:[self valueForKey:@"id"] forKey:@"id"];
     
-    [self.class properties:^(NSString *name, objc_property_t property) {
+    [self propertiesClass:self.class ToManaged:managedObject];
+    
+}
+
+- (void)propertiesClass:(id)className ToManaged:(NSManagedObject*)managedObject {
+    
+    [className properties:^(NSString *name, objc_property_t property) {
         
         id value    = [self valueForKey:name];
         
@@ -183,10 +189,28 @@
         }
         else if([value isKindOfClass:[NSNumber class]]){
             [managedObject setValue:value forKey:name];
+            
+        } else if([value isKindOfClass:[NSArray class]]){
+            
+            
+            
+        } else if([value class]){
+             NSManagedObject *object = [NSEntityDescription insertNewObjectForEntityForName:[value class].entityName inManagedObjectContext:[[value class] managedObjectContext]];
+            [[value class] propertiesClass:self.class ToManaged:object];
+            
         }
+        
+        
     }];
     
 }
+
+
+
+
+
+
+
 
 +(id)fromManaged:(NSManagedObject*)managedObject{
     CoreDataBase *newObject = [[[self class ]alloc] init];

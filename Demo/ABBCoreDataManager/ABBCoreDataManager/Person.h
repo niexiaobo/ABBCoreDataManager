@@ -7,8 +7,11 @@
 //
 
 #import "CoreDataBase.h"
+#import "House.h"
 
 @interface Person : CoreDataBase
 @property (strong,nonatomic) NSString* name;
 @property (strong,nonatomic) NSNumber* age;
+
+@property (strong,nonatomic) House* house;
 @end

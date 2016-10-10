@@ -22,6 +22,7 @@
 		F52F1DF31D7832B10036FFF5 /* CoreDataJson.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F1DEC1D7832B10036FFF5 /* CoreDataJson.m */; };
 		F52F1DF41D7832B10036FFF5 /* CoreDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F1DEE1D7832B10036FFF5 /* CoreDataObject.m */; };
 		F52F1DF51D7832B10036FFF5 /* CoreDataQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F1DF01D7832B10036FFF5 /* CoreDataQuery.m */; };
+		F52F1DF81D7D67550036FFF5 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F1DF71D7D67550036FFF5 /* House.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		F52F1DEE1D7832B10036FFF5 /* CoreDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataObject.m; sourceTree = "<group>"; };
 		F52F1DEF1D7832B10036FFF5 /* CoreDataQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataQuery.h; sourceTree = "<group>"; };
 		F52F1DF01D7832B10036FFF5 /* CoreDataQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataQuery.m; sourceTree = "<group>"; };
+		F52F1DF61D7D67550036FFF5 /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		F52F1DF71D7D67550036FFF5 /* House.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				F52F1DE61D7832B10036FFF5 /* libs */,
 				F5047F561D702CF50055AD3A /* Person.h */,
 				F5047F571D702CF50055AD3A /* Person.m */,
+				F52F1DF61D7D67550036FFF5 /* House.h */,
+				F52F1DF71D7D67550036FFF5 /* House.m */,
 				F5047F131D6FEDC40055AD3A /* AppDelegate.h */,
 				F5047F141D6FEDC40055AD3A /* AppDelegate.m */,
 				F5047F161D6FEDC40055AD3A /* ViewController.h */,
@@ -319,6 +324,7 @@
 				F5047F1E1D6FEDC40055AD3A /* ABBCoreDataManager.xcdatamodeld in Sources */,
 				F52F1DF31D7832B10036FFF5 /* CoreDataJson.m in Sources */,
 				F52F1DF51D7832B10036FFF5 /* CoreDataQuery.m in Sources */,
+				F52F1DF81D7D67550036FFF5 /* House.m in Sources */,
 				F52F1DF41D7832B10036FFF5 /* CoreDataObject.m in Sources */,
 				F5047F121D6FEDC40055AD3A /* main.m in Sources */,
 			);
